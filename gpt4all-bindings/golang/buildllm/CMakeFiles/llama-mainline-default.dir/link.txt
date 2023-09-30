@@ -1,0 +1,2 @@
+/usr/bin/ar qc libllama-mainline-default.a CMakeFiles/llama-mainline-default.dir/llama.cpp-mainline/llama.cpp.o CMakeFiles/ggml-mainline-default.dir/llama.cpp-mainline/ggml.c.o CMakeFiles/ggml-mainline-default.dir/llama.cpp-mainline/ggml-alloc.c.o CMakeFiles/ggml-mainline-default.dir/llama.cpp-mainline/k_quants.c.o CMakeFiles/ggml-mainline-default.dir/llama.cpp-mainline/ggml-vulkan.cpp.o
+/usr/bin/ranlib libllama-mainline-default.a

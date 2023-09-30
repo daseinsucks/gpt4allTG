@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/xxd.dir/external/bin/xxd.c.o -o ../../bin/xxd 

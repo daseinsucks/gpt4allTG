@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  gpt4all_api:
+    image: gpt4all_api
+    container_name: gpt4all_api
+    restart: always #restart on error (usually code compilation from save during bad state)
+    ports:
+      - "4892:4891"
+    environment:
+      - APP_ENVIRONMENT=dev
+      - WEB_CONCURRENCY=2
+      - LOGLEVEL=debug
+      - PORT=4891
+      - model=wizardLM-13B-Uncensored.ggmlv3.q4_0.bin
+      - inference_mode=gpu
+    volumes:
+      - './gpt4all_api/app:/app'
+      - '/home/deve_loper/.local/share/nomic.ai/GPT4All:/models'
+    command: ["/start-reload.sh"]

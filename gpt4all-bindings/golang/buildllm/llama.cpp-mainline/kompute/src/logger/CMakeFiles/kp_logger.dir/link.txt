@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -shared -Wl,-soname,libkp_logger.so -o libkp_logger.so CMakeFiles/kp_logger.dir/Logger.cpp.o 

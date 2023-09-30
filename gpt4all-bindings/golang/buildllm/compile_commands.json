@@ -1,0 +1,287 @@
+[
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/cc -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx2 -std=gnu11 -o CMakeFiles/ggml-mainline-default.dir/llama.cpp-mainline/ggml.c.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml.c",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml.c"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/cc -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx2 -std=gnu11 -o CMakeFiles/ggml-mainline-default.dir/llama.cpp-mainline/ggml-alloc.c.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml-alloc.c",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml-alloc.c"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/cc -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx2 -std=gnu11 -o CMakeFiles/ggml-mainline-default.dir/llama.cpp-mainline/k_quants.c.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/k_quants.c",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/k_quants.c"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx2 -std=gnu++20 -o CMakeFiles/ggml-mainline-default.dir/llama.cpp-mainline/ggml-vulkan.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml-vulkan.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml-vulkan.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DLLAMA_BUILD -DLLAMA_SHARED -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llama-mainline-default.dir/llama.cpp-mainline/llama.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/llama.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/llama.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dllamamodel_mainline_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llamamodel-mainline-default.dir/llamamodel.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llamamodel.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llamamodel.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dllamamodel_mainline_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llamamodel-mainline-default.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dreplit_mainline_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/replit-mainline-default.dir/replit.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/replit.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/replit.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dreplit_mainline_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/replit-mainline-default.dir/utils.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/utils.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/utils.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dreplit_mainline_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/replit-mainline-default.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dfalcon_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/falcon-default.dir/falcon.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/falcon.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/falcon.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dfalcon_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/falcon-default.dir/utils.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/utils.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/utils.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dfalcon_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/falcon-default.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dbert_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/bert-default.dir/bert.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/bert.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/bert.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dbert_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/bert-default.dir/utils.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/utils.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/utils.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dbert_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/bert-default.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dstarcoder_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/starcoder-default.dir/starcoder.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/starcoder.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/starcoder.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dstarcoder_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/starcoder-default.dir/utils.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/utils.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/utils.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dstarcoder_default_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/starcoder-default.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/cc -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -std=gnu11 -o CMakeFiles/ggml-mainline-avxonly.dir/llama.cpp-mainline/ggml.c.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml.c",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml.c"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/cc -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -std=gnu11 -o CMakeFiles/ggml-mainline-avxonly.dir/llama.cpp-mainline/ggml-alloc.c.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml-alloc.c",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml-alloc.c"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/cc -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -std=gnu11 -o CMakeFiles/ggml-mainline-avxonly.dir/llama.cpp-mainline/k_quants.c.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/k_quants.c",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/k_quants.c"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/ggml-mainline-avxonly.dir/llama.cpp-mainline/ggml-vulkan.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml-vulkan.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/ggml-vulkan.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DLLAMA_BUILD -DLLAMA_SHARED -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llama-mainline-avxonly.dir/llama.cpp-mainline/llama.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/llama.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/llama.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dllamamodel_mainline_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llamamodel-mainline-avxonly.dir/llamamodel.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llamamodel.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llamamodel.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dllamamodel_mainline_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llamamodel-mainline-avxonly.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dreplit_mainline_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/replit-mainline-avxonly.dir/replit.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/replit.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/replit.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dreplit_mainline_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/replit-mainline-avxonly.dir/utils.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/utils.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/utils.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dreplit_mainline_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/replit-mainline-avxonly.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dfalcon_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/falcon-avxonly.dir/falcon.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/falcon.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/falcon.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dfalcon_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/falcon-avxonly.dir/utils.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/utils.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/utils.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dfalcon_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/falcon-avxonly.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dbert_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/bert-avxonly.dir/bert.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/bert.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/bert.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dbert_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/bert-avxonly.dir/utils.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/utils.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/utils.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dbert_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/bert-avxonly.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dstarcoder_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/starcoder-avxonly.dir/starcoder.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/starcoder.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/starcoder.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dstarcoder_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/starcoder-avxonly.dir/utils.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/utils.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/utils.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DGGML_BUILD_VARIANT=\\\"avxonly\\\" -DGGML_USE_KOMPUTE -DLLAMA_DATE=999999 -DLLAMA_VERSIONS=\">=3\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dstarcoder_avxonly_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/starcoder-avxonly.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DLIB_FILE_EXT=\\\".so\\\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dllmodel_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llmodel.dir/llmodel.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DLIB_FILE_EXT=\\\".so\\\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dllmodel_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llmodel.dir/llmodel_shared.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_shared.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DGGML_BUILD_VARIANT=\\\"default\\\" -DGGML_USE_KOMPUTE -DGGML_USE_K_QUANTS -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DLIB_FILE_EXT=\\\".so\\\" -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dllmodel_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -std=gnu++20 -o CMakeFiles/llmodel.dir/llmodel_c.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llmodel_c.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llmodel_c.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute",
+  "command": "/usr/bin/cc -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -O3 -DNDEBUG -std=gnu11 -o CMakeFiles/xxd.dir/external/bin/xxd.c.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/external/bin/xxd.c",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/external/bin/xxd.c"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-build",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dfmt_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/src/format.cc",
+  "file": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/src/format.cc"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-build",
+  "command": "/usr/bin/c++ -DFMT_LIB_EXPORT -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dfmt_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/src/os.cc",
+  "file": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/src/os.cc"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/Algorithm.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Algorithm.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Algorithm.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/Manager.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Manager.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Manager.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/OpAlgoDispatch.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpAlgoDispatch.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpAlgoDispatch.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/OpMemoryBarrier.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpMemoryBarrier.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpMemoryBarrier.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/OpTensorCopy.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpTensorCopy.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpTensorCopy.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/OpTensorSyncDevice.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpTensorSyncDevice.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpTensorSyncDevice.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/OpTensorSyncLocal.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpTensorSyncLocal.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpTensorSyncLocal.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/OpBufferSyncDevice.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpBufferSyncDevice.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpBufferSyncDevice.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/OpBufferSyncLocal.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpBufferSyncLocal.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/OpBufferSyncLocal.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/Sequence.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Sequence.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Sequence.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/Tensor.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Tensor.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Tensor.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src",
+  "command": "/usr/bin/c++ -DFMT_HEADER_ONLY=1 -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_OPT_ACTIVE_LOG_LEVEL=KOMPUTE_LOG_LEVEL_OFF -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/shaders/glsl -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/fmt-src/include -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/_deps/vulkan_header-src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kompute.dir/Core.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Core.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/Core.cpp"
+},
+{
+  "directory": "/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm/llama.cpp-mainline/kompute/src/logger",
+  "command": "/usr/bin/c++ -DKOMPUTE_DISABLE_VK_DEBUG_LAYERS=1 -DKOMPUTE_LOG_LEVEL_CRITICAL=5 -DKOMPUTE_LOG_LEVEL_DEBUG=1 -DKOMPUTE_LOG_LEVEL_ERROR=4 -DKOMPUTE_LOG_LEVEL_INFO=2 -DKOMPUTE_LOG_LEVEL_OFF=6 -DKOMPUTE_LOG_LEVEL_TRACE=0 -DKOMPUTE_LOG_LEVEL_WARN=3 -DKOMPUTE_OPT_BUILT_IN_VULKAN_HEADER_TAG -DKOMPUTE_OPT_DISABLE_VK_DEBUG_LAYERS -DKOMPUTE_OPT_LOG_LEVEL_DISABLED=1 -DKOMPUTE_OPT_USE_BUILT_IN_FMT -DKOMPUTE_OPT_USE_BUILT_IN_SPDLOG -DKOMPUTE_OPT_USE_BUILT_IN_VULKAN_HEADER -DVULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1 -Dkp_logger_EXPORTS -I/home/deve_loper/gpt4all/gpt4all-bindings/golang/buildllm -I/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/include  -Wall -Wextra -Wpedantic -Werror -O3 -DNDEBUG -fPIC -std=gnu++14 -o CMakeFiles/kp_logger.dir/Logger.cpp.o -c /home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/logger/Logger.cpp",
+  "file": "/home/deve_loper/gpt4all/gpt4all-backend/llama.cpp-mainline/kompute/src/logger/Logger.cpp"
+}
+]
